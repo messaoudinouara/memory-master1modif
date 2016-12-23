@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/container_main"
+        android:name="com.example.admin.memorym1.StartFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </fragment>
+
+    <fragment
+        android:id="@+id/container_annex"
+        android:name="com.example.admin.memorym1.GameListFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </fragment>
+
+</LinearLayout>
+

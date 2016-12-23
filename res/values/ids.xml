@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="container_annex" type="id">container_annex</item>
+    <item name="container_main" type="id">container_main</item>
+    <item name="GameActivity" type="id">Game</item>
+</resources>

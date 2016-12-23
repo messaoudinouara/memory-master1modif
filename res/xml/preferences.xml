@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:title="@string/settings_label_difficulty_custom"
+        android:summary="@string/settings_label_num_family"
+        android:key="@string/pref_num_family_custom_key"
+        android:defaultValue="@string/pref_num_family_custom_default"
+        android:entries="@array/pref_num_family_options"
+        android:entryValues="@array/pref_num_family_values" />
+
+</PreferenceScreen>

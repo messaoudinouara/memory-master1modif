@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.memorym1" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MemoryActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".aproposactivity"
+            android:label="Memory"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".GameActivity"
+            android:label="Memory"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".aideactivity"
+            android:label="Memory"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.admin.memorym1.game_memory"
+            android:parentActivityName="com.example.admin.memorym1.MemoryActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.admin.memorym1.MemoryActivity" />
+        </activity>
+        <activity
+            android:name="com.example.admin.memorym1.GameListActivity"
+            android:parentActivityName="com.example.admin.memorym1.MemoryActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.admin.memorym1.MemoryActivity" />
+        </activity>
+        <activity
+            android:name="com.example.admin.memorym1.SettingsActivity"
+            android:parentActivityName="com.example.admin.memorym1.MemoryActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.admin.memorym1.MemoryActivity" />
+        </activity>
+
+        <service
+            android:name=".service.BackgroundPatternService"
+            android:exported="false">
+        </service>
+
+        <provider
+            android:name="com.example.admin.memorym1.data.MemonimoProvider"
+            android:authorities="@string/content_authority"
+            android:exported="false"
+            android:syncable="true" />
+
+
+    </application>
+
+</manifest>

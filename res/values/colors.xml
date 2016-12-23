@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mn_white">#FFFFFF</color>
+    <color name="mn_ivory">#F9F3ED</color>
+    <color name="mn_brown">#594A42</color>
+    <color name="mn_orange">#FF7900</color>
+    <color name="mn_blue">#13979D</color>
+    <color name="mn_pink">#FF4F33</color>
+    <color name="mn_green">#9CAF2E</color>
+    <color name="primary">#9CAF2E</color>
+
+
+
+</resources>

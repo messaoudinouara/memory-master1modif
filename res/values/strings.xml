@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name" translatable="false">Memorym1</string>
+
+    <string name="content_authority" translatable="false">com.example.admin.memorym1.app</string>
+
+    <string name="action_start_custom_game">Custom</string>
+    <string name="action_start_easy_game">Easy</string>
+    <string name="action_start_normal_game">Normal</string>
+    <string name="action_start_hard_game">Hard</string>
+    <string name="action_find_game">Finish a game</string>
+    <string name="action_finish_game">Finish this game</string>
+    <string name="question_new_game">Another game ?</string>
+    <string name="action_go_back_home">Home</string>
+    <string name="action_new_game">New game</string>
+    <string name="action_share">Share</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="activity_game_title">Game</string>
+    <string name="activity_game_list_title">Unfinished games</string>
+    <string name="activity_settings_title">Settings</string>
+
+    <!-- GAME -->
+    <string name="game_list_label">Unfinished games</string>
+    <string name="game_label">Game #%1$d</string>
+
+    <!-- SETTINGS -->
+    <string name="settings_label_num_player">How many players</string>
+    <string name="settings_annex_num_player">(By default)</string>
+    <string name="settings_label_difficulty_custom">How many families</string>
+    <string name="settings_label_num_family">How many families</string>
+
+    <!-- PREFERENCES -->
+    <string name="pref_num_family_custom_key" translatable="false">pref_num_family_custom_key</string>
+    <string name="pref_num_family_custom_default" translatable="false">12</string>
+
+
+    <string name="share_message">Memory is a lovely game, you should try it !</string>
+
+</resources>
