@@ -151,7 +151,7 @@ public class MemoryActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
-
+// procédure du son
     protected void onStop() {
         super.onStop();
         if (!clic)
