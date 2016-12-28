@@ -7,8 +7,8 @@ public class Game implements Cloneable {
 
 
     private static final int NUM_FAMILY_MODE_EASY = 4;
-    private static final int NUM_FAMILY_MODE_NORMAL = 9;
-    private static final int NUM_FAMILY_MODE_HARD = 15;
+   // private static final int NUM_FAMILY_MODE_NORMAL = 9;
+   // private static final int NUM_FAMILY_MODE_HARD = 15;
 
     private static final int CARD_NO_CHOSEN = -1;
 
@@ -47,10 +47,10 @@ public class Game implements Cloneable {
                 this.mGameCardList = GameCard.getRandomList(NUM_FAMILY_MODE_EASY);
                 break;
             case NORMAL:
-                this.mGameCardList = GameCard.getRandomList(NUM_FAMILY_MODE_NORMAL);
+               // this.mGameCardList = GameCard.getRandomList(NUM_FAMILY_MODE_NORMAL);
                 break;
             case HARD:
-                this.mGameCardList = GameCard.getRandomList(NUM_FAMILY_MODE_HARD);
+               // this.mGameCardList = GameCard.getRandomList(NUM_FAMILY_MODE_HARD);
                 break;
             default:
                 this.mGameCardList = GameCard.getRandomList(_numFamilyCustom);
